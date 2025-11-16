@@ -4,11 +4,12 @@ Click the Start Menu, type PowerShell, then open it.
 
 Copy and paste the code below, then press enter.
 For Windows 8, 10, 11: 📌
-irm https://get.activated.win | iex
+[ irm https://get.activated.win | iex ]
 
 If the above is blocked (by ISP/DNS), try this (needs updated Windows 10 or 11):
-iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+
+ [ iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String) ]
 
 For Windows 7 and later:
-iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+[ iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win')) ]
 
