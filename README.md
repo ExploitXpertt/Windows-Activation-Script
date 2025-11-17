@@ -13,3 +13,5 @@ If the above is blocked (by ISP/DNS), try this (needs updated Windows 10 or 11):
 For Windows 7 and later:
 [ iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win')) ]
 
+[❤️Saurav]
+
